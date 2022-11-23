@@ -1,4 +1,13 @@
+
 body{
-    background-color: black;
-    color: white;
+    background-color: #1C3144;
+    color: #DDD1E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/* .project_img{
+    width: 60px;
+    height: auto;
+} */
