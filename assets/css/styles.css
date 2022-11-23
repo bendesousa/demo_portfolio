@@ -16,6 +16,8 @@ hr.rounded {
 
 .text {
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 ul{
@@ -28,4 +30,9 @@ ul{
 .project_img{
     display: flex;
     justify-content: center;
+}
+hr.sub-rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    border-color: #9197AE;
 }
