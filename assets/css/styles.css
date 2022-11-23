@@ -18,3 +18,14 @@ hr.rounded {
     text-align: center;
 }
 
+ul{
+ text-align: center;   
+ list-style: none;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.project_img{
+    display: flex;
+    justify-content: center;
+}
