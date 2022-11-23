@@ -3,11 +3,13 @@ body{
     background-color: #1C3144;
     color: #DDD1E8;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* .project_img{
-    width: 60px;
-    height: auto;
-} */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    border-color: #7D1128;
+  }
