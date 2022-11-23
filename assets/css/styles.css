@@ -12,4 +12,9 @@ hr.rounded {
     border-top: 8px solid #bbb;
     border-radius: 5px;
     border-color: #7D1128;
-  }
+}
+
+.text {
+    text-align: center;
+}
+
