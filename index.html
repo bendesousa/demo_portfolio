@@ -38,8 +38,9 @@
             </ul>
             <hr class="rounded">
         </div>
-        <div>
+        <div class="slideshow">
             <h1 class ="text">My Work</h1>
+            <div class="slides">
                 <a href="https://github.com/bendesousa/bnta_capstone_project" class="project_img"><img hre src="assets/capstone.png" alt="Full Stack Project"  style="width: 300px;px; height:auto" ></a>
                 <h4 class ="text">World Pin</h4>
                 <p class ="text">
@@ -56,8 +57,10 @@
                     <li>SQL</li>
                     <li>Git</li>
                 </ul>
-                <hr class="sub-rounded">
-                <br>
+            </div>    
+                <!-- <hr class="sub-rounded">
+                <br> -->
+            <div class="slides">
                 <a href="https://github.com/bendesousa/backend_project" class="project_img"><img hre src="assets/backend.png" alt="Backend Project" style="width: 300px; height:auto"></a>
                 <h4 class ="text">Adventure Game API</h4>
                 <p class ="text">
@@ -70,8 +73,11 @@
                     <li>SQL</li>
                     <li>Git</li>
                 </ul>
+            </div>    
+                
                 <hr class="sub-rounded">
                 <br>
+            <div class="slides">
                 <a href="https://github.com/bendesousa/frontend_project_group4" class="project_img"><img hre src="assets/frontend.png" alt="Frontend Project" style="width:300px; height:auto"></a>
                 <h4 class ="text">Spotify Clone</h4>
                 <p class ="text">
@@ -85,7 +91,16 @@
                     <li>React</li>
                     <li>Git</li>
                 </ul>
-                <br>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <br>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
         <hr class="rounded">
         <div>
@@ -94,7 +109,6 @@
             <h4 class ="text">Telephone: +44 7570795494</h4>
         </div>
     </main>
-    <hr class="rounded">
     <footer>
         <a href="https://github.com/bendesousa"><img hre src="assets/GitHub logo.png" alt="Github Profile" style="width:60px; height:auto"></a>
         <a href="https://www.linkedin.com/in/ben-de-sousa-13a669217/"><img hre src="assets/linkedin logo.png" alt="LinkedIn Profile" style="width:60px; height:auto"></a>
