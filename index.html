@@ -1,3 +1,5 @@
+import Slid
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -113,5 +115,35 @@
         <a href="https://github.com/bendesousa"><img hre src="assets/GitHub logo.png" alt="Github Profile" style="width:60px; height:auto"></a>
         <a href="https://www.linkedin.com/in/ben-de-sousa-13a669217/"><img hre src="assets/linkedin logo.png" alt="LinkedIn Profile" style="width:60px; height:auto"></a>
     </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("slides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
 </body>
 </html>
